@@ -15,4 +15,4 @@ class MarcaSerializer(ModelSerializer):
 class CarroSerializer(ModelSerializer):
     class Meta:
         model = Marca
-        fields = "__all__"           
+        fields = "__all__"
