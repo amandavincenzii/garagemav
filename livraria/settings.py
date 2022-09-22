@@ -11,7 +11,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-@!ds^#ktmxgkrnguk%cj(a@mb6lro0al92viqc_a%k@*%0!$7@"
+SECRET_KEY = "django-insecure-i657ou=9(rxjezb*0d!lw8xwq!#dcf9#*ad%lo%n@)bb9_$6@q"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -45,7 +45,7 @@ MIDDLEWARE = [
     "whitenoise.middleware.WhiteNoiseMiddleware",
 ]
 
-ROOT_URLCONF = "garagem.urls"
+ROOT_URLCONF = "livraria.urls"
 
 TEMPLATES = [
     {
@@ -63,7 +63,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "garagem.wsgi.application"
+WSGI_APPLICATION = "livraria.wsgi.application"
 
 
 # Database
